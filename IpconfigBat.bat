@@ -1,0 +1,2 @@
+ipconfig
+timeout 10

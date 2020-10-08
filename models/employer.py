@@ -2,8 +2,8 @@ from models.persons import Persons
 
 class Employer(Persons):
     
-    def __init__(self, name, age, salary):
-        super().__init__(name, age)
+    def __init__(self, salary):
+        super().__init__()
         self._salary = salary
     
     def setSalary(self, salary):

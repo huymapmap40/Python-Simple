@@ -7,10 +7,6 @@ class Students(Persons):
         super().__init__(name, age)
         self._school_name = school_name
 
-    # Minimal constructor
-    def __init__(self, school_name):
-        self._school_name = school_name
-
     def setSchoolName(self, school_name):
         self._school_name = school_name
 

@@ -1,0 +1,2 @@
+ver
+timeout 10
